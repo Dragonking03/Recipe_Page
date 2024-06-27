@@ -1,0 +1,124 @@
+body {
+    display: block;
+    background-color: #f3e5d8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.nutrition-facts {
+    margin: 20px 0;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+}
+
+.nutrition-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    color: black;
+    font-weight: none;
+    padding-left: 30px;
+}
+
+.value {
+    color: #6b4f3f;
+    font-weight: bold;
+    padding-right: 130px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.prep_div {
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.preparation {
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+li {
+    line-height: 2.5em;
+}
+
+span {
+    font-weight: bolder;
+    color: #6b4f3f;
+}
+
+p {
+    font-size: medium;
+}
+
+.heading {
+    color: #6b4f3f;
+    font-size: 1.8em;
+    font-family: young-serif;
+    padding-left: 10px;
+}
+
+.preparation .heading {
+    color: #7c3656;
+    font-size: x-large;
+}
+
+.instructions {
+    list-style-position: outside;
+    padding-left: 5; 
+
+}
+
+.instructions li {
+    margin-bottom: 10px;
+    padding-left: 20px; 
+}
+
+.instructions li::marker {
+    font-weight: bold; 
+}
+
+h1{
+    font-family: outfit;
+    font-weight: 5000;
+    color: #6b4f3f;
+}
+
+.fimg {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+@media (max-width: 480px) {
+    .container{
+        margin: 0px 0px;
+        padding: 5px;
+
+    }
+    .image{
+        height: auto;
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px 0px;
+        overflow: hidden;
+    }
+}
